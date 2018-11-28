@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="700e77cf-4531-48fd-905a-53ca653386e1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/conf/config.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tweeterapp/control/TweeterAdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/tweeterapp/control/TweeterAdminController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tweeterapp/view/TweeterView.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/tweeterapp/view/TweeterView.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,19 +61,20 @@
     <session id="1346403722">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.100" value="1" />
           <entry key="project.open.time.21" value="3" />
           <entry key="project.open.time.23" value="2" />
           <entry key="project.open.time.64" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="13" />
           <entry key="ini" value="10" />
-          <entry key="php" value="9430" />
+          <entry key="php" value="9916" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -84,14 +82,14 @@
           <entry key="CSS" value="13" />
           <entry key="HTML" value="2" />
           <entry key="Ini" value="10" />
-          <entry key="PHP" value="9428" />
+          <entry key="PHP" value="9914" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="2" />
           <entry key="ini" value="2" />
-          <entry key="php" value="35" />
+          <entry key="php" value="37" />
           <entry key="png" value="3" />
           <entry key="sql" value="1" />
         </counts>
@@ -101,7 +99,7 @@
           <entry key="CSS" value="2" />
           <entry key="Image" value="3" />
           <entry key="Ini" value="2" />
-          <entry key="PHP" value="35" />
+          <entry key="PHP" value="37" />
           <entry key="SQL" value="1" />
         </counts>
       </usages-collector>
@@ -109,11 +107,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2125">
-              <caret line="125" selection-start-line="125" selection-end-line="125" />
+            <state relative-caret-position="591">
+              <caret line="115" column="30" lean-forward="true" selection-start-line="115" selection-start-column="30" selection-end-line="115" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -121,17 +119,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tweeterapp/control/TweeterAdminController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="161" column="121" lean-forward="true" selection-start-line="161" selection-start-column="121" selection-end-line="161" selection-end-column="121" />
+            <state relative-caret-position="2652">
+              <caret line="156" column="40" selection-start-line="156" selection-start-column="40" selection-end-line="156" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tweeterapp/control/TweeterController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1258">
+              <caret line="74" selection-start-line="74" selection-end-line="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mf/router/Router.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="969">
+              <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tweeterapp/view/TweeterView.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="297" column="28" selection-start-line="297" selection-start-column="28" selection-end-line="297" selection-end-column="28" />
+            <state relative-caret-position="323">
+              <caret line="157" column="116" lean-forward="true" selection-start-line="157" selection-start-column="116" selection-end-line="157" selection-end-column="116" />
             </state>
           </provider>
         </entry>
@@ -184,7 +200,6 @@
         <option value="$PROJECT_DIR$/src/mf/auth/exception/AuthentificationException.php" />
         <option value="$PROJECT_DIR$/src/mf/router/AbstractRouter.php" />
         <option value="$PROJECT_DIR$/src/tweeterapp/auth/TweeterAuthentification.php" />
-        <option value="$PROJECT_DIR$/src/mf/router/Router.php" />
         <option value="$PROJECT_DIR$/html/style.css" />
         <option value="$PROJECT_DIR$/main.php" />
         <option value="$PROJECT_DIR$/src/tweeterapp/control/TweeterController.php" />
@@ -193,6 +208,7 @@
         <option value="$PROJECT_DIR$/src/tweeterapp/model/Follow.php" />
         <option value="$PROJECT_DIR$/src/tweeterapp/model/User.php" />
         <option value="$PROJECT_DIR$/conf/config.ini" />
+        <option value="$PROJECT_DIR$/src/mf/router/Router.php" />
         <option value="$PROJECT_DIR$/src/tweeterapp/control/TweeterAdminController.php" />
         <option value="$PROJECT_DIR$/src/tweeterapp/view/TweeterView.php" />
       </list>
@@ -230,6 +246,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -339,7 +356,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -397,18 +413,18 @@
       <workItem from="1542995760610" duration="2318000" />
       <workItem from="1543175652184" duration="402000" />
       <workItem from="1543364755014" duration="384000" />
-      <workItem from="1543434516410" duration="994000" />
+      <workItem from="1543434516410" duration="2924000" />
+      <workItem from="1543437737390" duration="1014000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63304000" />
+    <option name="totallyTimeSpent" value="66248000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18443497" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18656716" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -524,20 +540,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mf/router/Router.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tweeterapp/control/TweeterController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1075">
-          <caret line="71" column="57" lean-forward="true" selection-start-line="71" selection-start-column="57" selection-end-line="71" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tweeterapp/model/Follow.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -569,13 +571,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2125">
-          <caret line="125" selection-start-line="125" selection-end-line="125" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/conf/config.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -585,15 +580,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tweeterapp/control/TweeterAdminController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="161" column="121" lean-forward="true" selection-start-line="161" selection-start-column="121" selection-end-line="161" selection-end-column="121" />
+        <state relative-caret-position="2652">
+          <caret line="156" column="40" selection-start-line="156" selection-start-column="40" selection-end-line="156" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tweeterapp/control/TweeterController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mf/router/Router.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tweeterapp/view/TweeterView.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="297" column="28" selection-start-line="297" selection-start-column="28" selection-end-line="297" selection-end-column="28" />
+        <state relative-caret-position="323">
+          <caret line="157" column="116" lean-forward="true" selection-start-line="157" selection-start-column="116" selection-end-line="157" selection-end-column="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="591">
+          <caret line="115" column="30" lean-forward="true" selection-start-line="115" selection-start-column="30" selection-end-line="115" selection-end-column="30" />
         </state>
       </provider>
     </entry>
