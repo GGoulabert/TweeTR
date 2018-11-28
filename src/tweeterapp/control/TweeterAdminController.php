@@ -159,17 +159,26 @@ class TweeterAdminController extends \mf\control\AbstractController {
 
     public function follow() {
         $userConnected = \tweeterapp\model\User::select()->where('username', '=', $_SESSION['user_login'])->first();
-        $userId = $userConnected['id'];
-        $webRequest = new \mf\utils\HttpRequest();
-        $author = $webRequest->get;
-        $authorId = $author['id'];
-        $following = new \tweeterapp\model\Follow();
-        $following->following($userId, $authorId);
-        $followersUpdate = new \tweeterapp\model\User();
-        $followersUpdate->followersUpdate($authorId);
-        $allTweets = \tweeterapp\model\Tweet::select()->get();
-        $view = new \tweeterapp\view\TweeterView($allTweets);
-        $renderFollowing = 'renderFollowing';
-        $view->render($renderFollowing);
+        $checkIfNotFollowing = \tweeterapp\model\Follow::select()->where('follower', '=', $userConnected['id'])->first();
+        if (count($checkIfNotFollowing) < 1) {
+            $userId = $userConnected['id'];
+            $webRequest = new \mf\utils\HttpRequest();
+            $author = $webRequest->get;
+            $authorId = $author['id'];
+            $following = new \tweeterapp\model\Follow();
+            $following->following($userId, $authorId);
+            $followersUpdate = new \tweeterapp\model\User();
+            $followersUpdate->followersUpdate($authorId);
+            $allTweets = \tweeterapp\model\Tweet::select()->get();
+            $view = new \tweeterapp\view\TweeterView($allTweets);
+            $renderFollowing = 'renderFollowing';
+            $view->render($renderFollowing);
+        }
+        else {
+            $allTweets = \tweeterapp\model\Tweet::select()->get();
+            $view = new \tweeterapp\view\TweeterView($allTweets);
+            $renderFollowing = 'renderFollowing';
+            $view->render($renderFollowing);
+        }
     }
 }
