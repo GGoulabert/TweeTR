@@ -296,6 +296,8 @@ class TweeterView extends \mf\view\AbstractView {
 
     private function renderFollowing() {
         $followingHTML = '';
+        $connectedUser = \tweeterapp\model\User::select()->where('username', '=', $_SESSION['user_login'])->first();
+        $followingHTML .= "Bonjour $connectedUser->fullname.<br><br>";
         $followeds = \tweeterapp\model\Follow::select()
             ->where('follower', '=', $this->data['id'])
             ->get();
