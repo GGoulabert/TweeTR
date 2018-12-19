@@ -40,7 +40,7 @@ class TweeterAdminController extends \mf\control\AbstractController {
 
         }
         catch (\mf\auth\exception\AuthentificationException $e) {
-                \mf\router\Router::executeRoute('signup');
+                \mf\router\Router::executeRoute('/signup/');
         }
     }
 
@@ -64,7 +64,7 @@ class TweeterAdminController extends \mf\control\AbstractController {
             $view->render($renderFollowing);
         }
         catch (\mf\auth\exception\AuthentificationException $e) {
-            \mf\router\Router::executeRoute('login');
+            \mf\router\Router::executeRoute('/login/');
         }
     }
 

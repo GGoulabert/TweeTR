@@ -52,8 +52,9 @@ class Router extends AbstractRouter {
     }
     
     public static function executeRoute($alias) {
-        $curRoute = self::$routes[$alias][0];
+        $newRoute = self::$routes[$alias][0];
         $methoToUse = self::$routes[$alias][1];
+        $curRoute = new $newRoute;
         $curRoute->$methoToUse();
     }
 }
