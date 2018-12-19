@@ -42,7 +42,6 @@ class TweeterAdminController extends \mf\control\AbstractController {
         catch (\mf\auth\exception\AuthentificationException $e) {
                 \mf\router\Router::executeRoute('signup');
         }
-
     }
 
     /* Méthode checkLogin

@@ -136,7 +136,8 @@ INSERT INTO `user` (`id`, `fullname`, `username`, `password`, `level`, `follower
 (7, 'Napoleon Bonaparte', 'napoleon', '', 100, 0),
 (8, 'Albert Einstein', 'albert', '', 100, 0),
 (9, 'Oscar Wilde', 'oscar', '', 100, 1),
-(10, 'John Doe', 'johny', '$2y$10$9xy1A.dN0.eppTrLciPCn.hiMBHm2WAr1ykbgqcvaX6Uc66A7il8C', 100, 0);
+(10, 'John Doe', 'johny', '$2y$10$9xy1A.dN0.eppTrLciPCn.hiMBHm2WAr1ykbgqcvaX6Uc66A7il8C', 100, 0),
+(11, 'admin', 'admin', '', 200, 0);
 
 --
 -- Indexes for dumped tables
